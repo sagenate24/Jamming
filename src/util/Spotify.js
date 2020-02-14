@@ -1,5 +1,6 @@
-const clientID = process.env.SPOTIFY_CLIENT_ID;
+const clientID = process.env.REACT_APP_SPOTIFY_CLIENT_ID;
 const redirectURI = encodeURIComponent('https://jamming-app.herokuapp.com/callback/');
+
 let accessToken;
 
 const Spotify = {
