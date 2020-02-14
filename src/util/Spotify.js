@@ -1,7 +1,5 @@
-const clientID = '83879e7551a74f5baa78ae5d50f56b39';
-const redirectURI = encodeURIComponent('http://localhost:3000/callback/');
-// const redirectURI = encodeURIComponent('http://jammingwebapp.s3.us-east-2.amazonaws.com/index.html#/callback/');
-// const clientSecret = 'https://jammingwebapp.s3.us-east-2.amazonaws.com/index.html';
+const clientID = process.env.SPOTIFY_CLIENT_ID;
+const redirectURI = encodeURIComponent('https://jamming-app.herokuapp.com/callback/');
 let accessToken;
 
 const Spotify = {
