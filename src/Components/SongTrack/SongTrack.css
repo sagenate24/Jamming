@@ -1,0 +1,33 @@
+.songTrack {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #6f6f6f;
+  padding-left: 10px;
+  height: 50px;
+}
+
+.songTrack img:hover {
+  cursor: pointer;
+}
+
+.songTrack-information {
+  padding-left: 20px;
+  margin: 0;
+  width: 80%;
+}
+  
+.songTrack-information h4 {
+  color: rgb(225, 253, 255);
+  font-weight: 400;
+}
+  
+.songTrack-information span {
+  padding-left: 25px;
+  font-weight: 300;
+  color: #fff;
+}
+
+.songTrack-information .animation{
+  float: right;
+  margin-top: -47px;
+}

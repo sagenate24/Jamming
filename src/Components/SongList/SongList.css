@@ -1,0 +1,6 @@
+.SongList {
+    border-bottom: 2px solid greenyellow;
+    background-color: rgba(65, 57, 57, 0.687);
+    max-height: 330px;
+    overflow-y: auto;
+}

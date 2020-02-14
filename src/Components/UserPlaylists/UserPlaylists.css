@@ -1,0 +1,19 @@
+.UserPlaylists {
+  background-color: rgba(0, 0, 0, 0.831);
+}
+
+.UserPlaylists h2 {
+  background-color: rgba(0, 0, 0, 0.934);
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.88rem;
+  color: #fff;
+  margin: 0;
+  padding: 12px;
+}
+  
+@media only screen and (max-width: 1020px) {
+  .UserPlaylists {
+    width: 100%;
+  }
+}

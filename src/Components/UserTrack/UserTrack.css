@@ -1,0 +1,86 @@
+.UserTrack {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #6f6f6f;
+  transition: background-color .25s;
+}
+
+.UserTrack:hover {
+  background-color: rgba(91, 88, 88, 0.742);
+  cursor: pointer;
+}
+
+.UserTrack img {
+  cursor: pointer;
+  width: 64px;
+  transition: width .25s;
+}
+  
+.UserTrack-action {
+  cursor: pointer;
+  padding: .5rem;
+  font-size: 1.05rem;
+  transition: color .25s;
+  color: black;
+}
+  
+.UserTrack-action:hover {
+  color: rgba(265, 265, 265, .5);
+}
+  
+.UserTrack-information {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 72px;
+  padding-left: 20px;
+}
+  
+.UserTrack-information h3 {
+  font-weight: 100;
+  color: #fff;
+}
+  
+.UserTrack-information p {
+  font-size: .83rem;
+  font-weight: 300;
+  color: #fff;
+}
+
+/* second styling for hovering
+---------------------------------------------- */
+
+.UserTrack2 {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #6f6f6f;
+  background-color: rgba(91, 88, 88, 0.742);
+  cursor: pointer;
+}
+
+.UserTrack2 img {
+  cursor: pointer;
+  width: 72px;
+  transition: width .25s;
+}
+
+.UserTrack2-information {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 72px;
+  padding-left: 20px;
+}
+
+.UserTrack2-information h3 {
+  font-weight: 200;
+  color: #fff;
+}
+
+.UserTrack2-information p {
+  font-size: .83rem;
+  font-weight: 300;
+  color: #fff;
+}

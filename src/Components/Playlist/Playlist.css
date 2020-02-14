@@ -1,0 +1,76 @@
+.Playlist {
+  max-height: 400px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+  
+.Playlist input {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  border-bottom: 1px solid #6f6f6f;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.55rem;
+  color: rgba(0, 0, 0, 0.658);
+}
+.Playlist, .songListGenerator {
+  width: 100%;
+}
+  
+.Playlist-save {
+  cursor: pointer;
+  width: 10rem;
+  padding: .77rem 0;
+  border-radius: 6px;
+  margin-top: 1.27rem;
+  background-color: #09c648;
+  color: #fff;
+  font-weight: 500;
+  font-size: .83rem;
+  transition: background-color .25s;
+  outline: none;
+  border-color: none;
+}
+  
+.Playlist-save:hover {
+  background-color: rgba(98, 235, 121, 0.7);
+}
+  
+@media only screen and (max-width: 1020px) {
+  .Playlist {
+      width: 100%;
+      align-items: center;
+  }
+}
+
+@media only screen and (min-width: 1020px) {
+  .Playlist {
+      align-items: center;
+  }
+}
+
+/* -------------------------------- */
+
+.popUp-info {
+  text-align: center;
+}
+
+.button-yes, .button-cancel {
+  padding: 8px;
+  margin: 10px;
+  outline: none;
+  transition: background-color .25s;
+}
+
+.button-yes:hover {
+  background-color: rgb(6, 201, 6);
+  cursor: pointer;
+}
+
+.button-cancel:hover {
+  background-color: rgb(232, 4, 4);
+  cursor: pointer;
+}

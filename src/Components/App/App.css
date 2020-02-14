@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 500;
+  color: #fff;
+  
+}
+
+body,
+html,
+#root {
+  height: 100%;
+}
+
+html {
+  font-size: 18px;
+}
+
+h1 {
+  background-color: rgba(0, 0, 0, 0.824);
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.88rem;
+  color: #fff;
+  margin: 0;
+  padding: 7px;
+}
+
+h1 .highlight {
+  color: #09c648;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.55rem;
+}
+
+.App-playlist {
+  width: 100%;
+}
+
+.App-user-playlist {
+  width: 100%;
+}
+
+@media only screen and (max-width: 1020px) {
+  .App-playlist {
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (min-width: 1020px) {
+  .App-playlist, .App-user-playlist {
+    align-items: center;
+    flex-direction: row;
+    padding: 0 25%;
+    width: 100%;
+    max-width: 100%;
+  }
+  .zeroResults {
+    width: 50%;
+  }
+}
+
+.footer {
+  color: #000;
+  text-align: center;
+  padding: 10px;
+}
+
+.zeroResults {
+  color: rgba(0, 0, 0, 0.297);
+  /* width: 50%; */
+  text-align: center;
+}
+
+.SpotifySign {
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.509);
+}
+
+.SpotifyLogo {
+  width: 14px;
+}
