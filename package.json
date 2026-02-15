@@ -10,7 +10,7 @@
     "react-player": "^1.5.0",
     "react-router": "^4.2.0",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "^3.3.1",
+    "react-scripts": "^5.0.1",
     "react-spinners": "^0.3.2",
     "reactjs-popup": "^1.1.1"
   },
